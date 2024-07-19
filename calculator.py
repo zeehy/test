@@ -3,28 +3,28 @@ def add(a, b):
 
 
 def subtract(a, b):
-	return a-b
+	pass
 
 def multiply(a, b):
-    return a*b
+    pass
 
 
 def divide(a, b):
-    return a/b
+    pass
 
 
 def pow(a, b):
-    return a**b
+    pass
 
 
 def abs(a):
-    return a if a>=0 else -a 
+    pass
 
 
 def mod(a, b):
-    return a % b
+    pass
 
 
 if __name__ == "__main__":
     # 간단한 테스트 코드
-    print("abs (-5): ", abs(-5))
+    pass
