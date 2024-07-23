@@ -12,11 +12,15 @@ def multiply(a, b):
 
 
 def divide(a, b):
-    pass
+    if b!=0:
+        return a/b
+    else:
+        return print("Error")
 
 
 def pow(a, b):
-    pass
+    return a**b
+    
 
 
 def abs(a):
