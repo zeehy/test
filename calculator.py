@@ -29,4 +29,6 @@ def mod(a, b):
 
 if __name__ == "__main__":
     # 간단한 테스트 코드
-    pass
+    a=100
+    b=77
+    print(mod(a,b))
