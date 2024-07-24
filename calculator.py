@@ -20,13 +20,15 @@ def pow(a, b):
 
 
 def abs(a):
-    pass
+    return abs(a)
 
 
 def mod(a, b):
-    pass
+    return a%b
 
 
 if __name__ == "__main__":
     # 간단한 테스트 코드
-    pass
+    a=100
+    b=77
+    print(mod(a,b))
