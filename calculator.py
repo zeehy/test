@@ -1,5 +1,6 @@
 def add(a, b):
-    return a+b
+    c=a+b
+    return c
 
 
 def subtract(a, b):
@@ -11,21 +12,27 @@ def multiply(a, b):
 
 
 def divide(a, b):
-    pass
+    if b!=0:
+        return a/b
+    else:
+        return print("Error")
 
 
 def pow(a, b):
-    pass
+    return a**b
+    
 
 
 def abs(a):
-    pass
+    return abs(a)
 
 
 def mod(a, b):
-    pass
+    return a%b
 
 
 if __name__ == "__main__":
     # 간단한 테스트 코드
-    pass
+    a=100
+    b=77
+    print(mod(a,b))
